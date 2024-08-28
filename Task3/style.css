@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    border: 2px solid white;
+    background-color: blue;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container .main-h{
+    font-size: 40px;
+}
+
+.converter input{
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.converter select{
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container button:hover{
+    background-color: blue;
+    transition: 0.3s;
+}
+
+.result-h{
+    text-align:center;
+    font-family: "Times New Roman", Times, serif;
+    font-weight:bold;
+    background-color: blueviolet;
+}
+
+#result{
+    font-size: 35px;
+    margin-top: 10px;
+    background-color: rgb(229, 229, 235);
+}
+
+
+
